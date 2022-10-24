@@ -3,7 +3,7 @@ function square(){
     let b = document.sq.sq_b.value;
     let c = document.sq.sq_c.value;
     let sol = document.getElementaryById("sq_sol");
-    let d = b - 4 * a * c;
+    let d = b * b - 4 * a * c;
     let str;
     if (d < 0) {
         str = "вещественных корней нет"
